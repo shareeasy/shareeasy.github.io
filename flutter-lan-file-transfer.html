@@ -105,6 +105,75 @@
       margin-right: 6px;
     }
   </style>
+
+  <!-- App links for SEO -->
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="LAN File Transfer & Video Streaming in Flutter: Device Discovery, Chunked Streaming, and DLNA Casting">
+  <meta property="og:description" content="Technical deep-dive into building a cross-platform LAN file transfer and video streaming tool in Flutter — covering mDNS/UDP device discovery, chunked large-file streaming, and DLNA TV casting.">
+  <meta property="og:url" content="https://shareeasy.github.io/flutter-lan-file-transfer.html">
+  <meta property="og:image" content="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png">
+  <meta property="og:site_name" content="ShareEasy Engineering Blog">
+  
+  <!-- App-specific meta tags -->
+  <link rel="canonical" href="https://shareeasy.github.io/flutter-lan-file-transfer.html">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "LAN File Transfer & Video Streaming in Flutter: Device Discovery, Chunked Streaming, and DLNA Casting",
+    "description": "Technical deep-dive into building a cross-platform LAN file transfer and video streaming tool in Flutter — covering mDNS/UDP device discovery, chunked large-file streaming, and DLNA TV casting.",
+    "author": {
+      "@type": "Organization",
+      "name": "ShareEasy Engineering Team",
+      "url": "https://www.xinyiwe.com/"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "ShareEasy",
+      "url": "https://www.xinyiwe.com/"
+    },
+    "datePublished": "2026-08-25",
+    "dateModified": "2026-08-25",
+    "mainEntityOfPage": "https://shareeasy.github.io/flutter-lan-file-transfer.html",
+    "keywords": ["flutter", "lan", "file-transfer", "mdns", "dlna", "streaming"],
+    "articleSection": "Technology"
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "ShareEasy",
+    "alternateName": "Fast File Transfer",
+    "description": "Fast cross-platform file transfer over local WiFi. Share photos, videos, and documents between Android, iOS, macOS, and Windows devices without internet.",
+    "applicationCategory": "UtilitiesApplication",
+    "operatingSystem": "Android, iOS, macOS, Windows",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock"
+    },
+    "downloadUrl": [
+      "https://play.google.com/store/apps/details?id=com.xinyiwe.shareeasy",
+      "https://apps.apple.com/us/app/shareeasy/id6761641866",
+      "https://files.xinyiwe.com/shareeasy.zip"
+    ],
+    "featureList": [
+      "WiFi file transfer without internet",
+      "Cross-platform support",
+      "mDNS device discovery",
+      "Fast LAN transfers (80+ MB/s)",
+      "Video streaming and DLNA casting"
+    ],
+    "author": {
+      "@type": "Organization",
+      "name": "ShareEasy",
+      "url": "https://www.xinyiwe.com/"
+    }
+  }
+  </script>
 </head>
 <body>
   <div class="container">
@@ -320,13 +389,38 @@ Option B: Locally re-encode only the I4~P5 segment</code></pre>
     <footer>
       <p>Written by the engineering team behind <a href="https://www.xinyiwe.com/">ShareEasy</a>.</p>
       <p>Available on:
-        <a href="https://play.google.com/store/apps/details?id=com.xinyiwe.shareeasy">Google Play</a> ·
-        <a href="https://apps.apple.com/us/app/shareeasy/id6761641866">iOS</a> ·
-        <a href="https://apps.apple.com/us/app/shareeasy/id6761641866?platform=mac">macOS</a> ·
-        <a href="https://files.xinyiwe.com/shareeasy.zip">Windows</a>
+        <a href="https://play.google.com/store/apps/details?id=com.xinyiwe.shareeasy" title="Download on Google Play - 10K+ downloads">Google Play</a> ·
+        <a href="https://apps.apple.com/us/app/shareeasy/id6761641866" title="Download on App Store - iOS version">iOS</a> ·
+        <a href="https://apps.apple.com/us/app/shareeasy/id6761641866?platform=mac" title="Download on App Store - macOS version">macOS</a> ·
+        <a href="https://files.xinyiwe.com/shareeasy.zip" title="Download Windows version">Windows</a>
       </p>
+      <p><small>Read more technical details in our engineering blog: <a href="https://shareeasy.github.io/flutter-lan-file-transfer.html">LAN File Transfer Implementation Guide</a></small></p>
       <p><a href="/">← Back to all posts</a></p>
-    </footer>
+    
+
+## Try ShareEasy Today
+
+If you're looking for a reliable cross-platform LAN file transfer solution, ShareEasy is available for all major platforms:
+
+**Download Links:**
+- 📱 [Google Play](https://play.google.com/store/apps/details?id=com.xinyiwe.shareeasy) - Android
+- 🍎 [App Store](https://apps.apple.com/us/app/shareeasy/id6761641866) - iOS & macOS
+- 💻 [Windows Download](https://files.xinyiwe.com/shareeasy.zip) - Desktop
+
+**Key Features:**
+- ✅ Cross-platform support (Android, iOS, macOS, Windows)
+- ✅ WiFi file transfer without internet
+- ✅ mDNS device discovery
+- ✅ Fast LAN transfers (80+ MB/s)
+- ✅ Video streaming and DLNA casting
+- ✅ Private and secure - no cloud required
+
+Built with Flutter for optimal performance across all platforms. Perfect for sharing photos, videos, documents between devices on the same network.
+
+---
+
+*This article is part of our technical deep-dive series on building cross-platform applications. ShareEasy is developed by the engineering team behind [ShareEasy](https://www.xinyiwe.com/).*
+</footer>
   </div>
 </body>
 </html>
