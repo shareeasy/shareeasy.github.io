@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ShareEasy Engineering Blog</title>
+  <meta name="description" content="Technical articles on Flutter, LAN file transfer, and cross-platform development.">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #0d1117;
+      color: #c9d1d9;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 60px 20px;
+    }
+    .container { max-width: 720px; width: 100%; }
+    h1 { font-size: 2.2rem; color: #58a6ff; margin-bottom: 8px; }
+    .subtitle { color: #8b949e; font-size: 1rem; margin-bottom: 40px; }
+    .post-list { list-style: none; }
+    .post-item { margin-bottom: 32px; }
+    .post-item a {
+      font-size: 1.3rem;
+      font-weight: 600;
+      color: #58a6ff;
+      text-decoration: none;
+      display: block;
+      margin-bottom: 4px;
+    }
+    .post-item a:hover { text-decoration: underline; }
+    .post-meta { font-size: 0.85rem; color: #8b949e; margin-bottom: 8px; }
+    .post-excerpt { font-size: 0.95rem; line-height: 1.6; color: #c9d1d9; }
+    footer {
+      margin-top: 60px;
+      padding-top: 24px;
+      border-top: 1px solid #21262d;
+      font-size: 0.85rem;
+      color: #8b949e;
+      width: 100%;
+      max-width: 720px;
+    }
+    footer a { color: #58a6ff; text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+    .tag {
+      display: inline-block;
+      background: #161b22;
+      border: 1px solid #30363d;
+      border-radius: 12px;
+      padding: 2px 10px;
+      font-size: 0.75rem;
+      color: #8b949e;
+      margin-right: 6px;
+      margin-top: 4px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>ShareEasy Engineering Blog</h1>
+    <p class="subtitle">Technical articles on Flutter, LAN file transfer, and cross-platform development.</p>
+
+    <ul class="post-list">
+      <li class="post-item">
+        <a href="flutter-lan-file-transfer.html">Device Discovery & Streaming File Transfer in Flutter: A LAN Implementation Guide</a>
+        <p class="post-meta">2026 · flutter, dart, lan, file-transfer, udp-broadcast, mdns</p>
+        <p class="post-excerpt">While building a cross-platform file transfer tool, I ran into challenges around automatic device discovery, hotspot network adaptation, and large-file memory management. This post documents the problems and solutions.</p>
+        <span class="tag">flutter</span><span class="tag">dart</span><span class="tag">lan</span><span class="tag">udp-broadcast</span><span class="tag">mdns</span>
+      </li>
+    </ul>
+
+    <footer>
+      <p>Written by the engineering team behind <a href="https://play.google.com/store/apps/details?id=com.xinyiwe.shareeasy">ShareEasy</a>.</p>
+    </footer>
+  </div>
+</body>
+</html>
