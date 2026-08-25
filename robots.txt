@@ -2,10 +2,3 @@ User-agent: *
 Allow: /
 
 Sitemap: https://shareeasy.github.io/sitemap.xml
-
-# Google Play app links
-User-agent: *
-Allow: /
-
-# App-specific URLs (these can be indexed)
-Sitemap: https://play.google.com/sitemaps/apps/sitemap-com.xinyiwe.shareeasy.xml
